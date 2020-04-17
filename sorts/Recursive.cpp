@@ -23,15 +23,11 @@ int SumArray(int arr[], int len)
 }
 
 //2.找出数组中最大的数字
-int MaxNumber(int arr[], int len)
+int MaxNumber(int *arr, int index)
 {
-    int temp;
-    if (len == 0)
-        return 0;
-    if (len == 1)
+    if (index == 0)
         return arr[0];
-    temp = MaxNumber(arr, len - 1);
-    return temp > MaxNumber(arr, len - 1) ? temp : arr[len - 1]; //返回值的元素和当前元素做对比
+    return arr[index] > MaxNumber(arr, index - 1) ? arr[index] : MaxNumber(arr, index - 1);
 }
 
 int main()
@@ -40,6 +36,6 @@ int main()
     int len = length(array);
     int rlt = SumArray(array, len);
     cout << "sum array number is " << rlt << endl;
-    int MaxNum = MaxNumber(array, len);
+    int MaxNum = MaxNumber(array, len - 1);
     cout << "max number is " << MaxNum << endl;
 }
