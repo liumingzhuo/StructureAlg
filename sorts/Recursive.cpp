@@ -1,3 +1,8 @@
+/**
+ * 
+ * 递归思想
+ * 
+ * */
 #include <iostream>
 #include <stdio.h>
 using namespace std;
@@ -7,7 +12,7 @@ int length(T &arr)
 {
     return sizeof(arr) / sizeof(arr[0]);
 }
-//计算列表中元素的总和
+//1.计算列表中元素的总和
 int SumArray(int arr[], int len)
 {
     if (len == 0)
@@ -17,7 +22,7 @@ int SumArray(int arr[], int len)
     return arr[len - 1] + SumArray(arr, len - 1);
 }
 
-//找出数组中最大的数字
+//2.找出数组中最大的数字
 int MaxNumber(int arr[], int len)
 {
     int temp;
