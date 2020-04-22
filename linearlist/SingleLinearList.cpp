@@ -14,7 +14,7 @@ bool InitList(LinkList &l)
     l->next = NULL;
     return true;
 }
-//前插操作，在p节点前插入元素e
+//前插操作，在p结点前插入元素e
 bool InsertPriorNode(LNode *p, int e)
 {
     if (p == NULL)
@@ -28,7 +28,7 @@ bool InsertPriorNode(LNode *p, int e)
     p->data = e;
     return true;
 }
-//后插操作，在p节点后插入元素e
+//后插操作，在p结点后插入元素e
 bool InsertNextNode(LNode *p, int e)
 {
     if (p == NULL)
@@ -94,7 +94,7 @@ LinkList InitHeadersList(LinkList &l)
     }
     return l;
 }
-//删除指定节点
+//删除指定结点
 bool DeleteNode(LinkList &l, LNode *p)
 {
     if (p == NULL)
