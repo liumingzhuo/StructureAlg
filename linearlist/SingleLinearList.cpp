@@ -94,7 +94,7 @@ LinkList InitHeadersList(LinkList &l)
     }
     return l;
 }
-//删除指定结点
+//删除指定节点
 bool DeleteNode(LinkList &l, LNode *p)
 {
     if (p == NULL)
@@ -180,24 +180,103 @@ void PrintfList(LinkList &l)
     }
 }
 
+//单链表反转
+void ReverseList(LinkList &l)
+{
+    if (!l->next)
+        return;
+    LNode *pPrev, *pCur, *pNext;
+    pPrev = l->next;
+    if (!pPrev->next)
+        return;
+    pCur = pPrev->next;
+    pPrev->next = NULL; //将第一个元素 与 表头断开
+    while (pCur->next)
+    {
+        pNext = pCur->next;
+        pCur->next = pPrev;
+        pPrev = pCur;
+        pCur = pNext;
+    }
+    pCur->next = pPrev; //将pCur->next 连接前面的链表
+    l->next = pCur;
+}
+//两个有序的链表合并  leetcode 21
+LNode *MergeList(LinkList &l1, LinkList &l2)
+{
+    if (l1 == NULL)
+        return l2;
+    if (l2 == NULL)
+        return l1;
+    if (l1->data <= l2->data)
+    {
+        l1->next = MergeList(l1->next, l2);
+        return l1;
+    }
+    else
+    {
+        l2->next = MergeList(l1, l2->next);
+        return l2;
+    }
+}
+//删除链表倒数第n个元素 leetcode 19
+LNode *removeNthFromEnd(LinkList &l, int n)
+{
+    if (l == NULL || l->next == NULL || n == 0)
+        return NULL;
+    //类似于快慢指针
+    LNode *pPrev = l;
+    LNode *pCur = l;
+    while (n > 0)
+    {
+        pCur = pCur->next;
+        --n;
+    }
+    if (pCur == NULL)
+        return l->next;
+    while (pCur->next)
+    {
+        pCur = pCur->next;
+        pPrev = pPrev->next;
+    }
+    pPrev->next = pPrev->next->next;
+    return l;
+}
+
+//删除链表倒数第n个元素 leetcode 19 递归
+int cur = 0;
+LNode *removeNthFromEnd2(LinkList &l, int n)
+{
+    if (!l)
+        return NULL;
+    l->next = removeNthFromEnd2(l->next, n);
+    cur++;
+    if (cur == n)
+        return l->next;
+    return l;
+}
+
 int main()
 {
     LinkList l;
     // InitList(l);
     // l = InitAfterList(l);
     l = InitHeadersList(l);
-    // PrintfList(l);
-    InsertList(l, 2, 2);
 
-    int deleteEle;
-    DeleteList(l, 1, deleteEle);
-    printf("删除的元素:%d\n", deleteEle);
-
-    LNode *findElem = GetElem(l, 2);
-    printf("查找第2位的值为:%d\n", findElem->data);
-
+    // ReverseList(l);
+    removeNthFromEnd2(l, 2);
     PrintfList(l);
-    int len = LengthList(l);
-    printf("length %d\n", len);
+    // InsertList(l, 2, 2);
+
+    // int deleteEle;
+    // DeleteList(l, 1, deleteEle);
+    // printf("删除的元素:%d\n", deleteEle);
+
+    // LNode *findElem = GetElem(l, 2);
+    // printf("查找第2位的值为:%d\n", findElem->data);
+
+    // PrintfList(l);
+    // int len = LengthList(l);
+    // printf("length %d\n", len);
     return 0;
 }
