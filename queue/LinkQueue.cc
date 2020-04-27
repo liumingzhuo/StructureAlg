@@ -22,7 +22,8 @@ public:
     LinkQueue();
     ~LinkQueue();
     void enqueue(TypeEle e);
-    TypeEle dequeue(TypeEle *data);
+    TypeEle dequeue();
+    int queueLength();
 };
 
 LinkQueue::LinkQueue()
@@ -56,14 +57,14 @@ void LinkQueue::enqueue(TypeEle e)
     queue->num++;
 }
 
-TypeEle LinkQueue::dequeue(TypeEle *data)
+TypeEle LinkQueue::dequeue()
 {
     if (queue == NULL || queue->num == 0)
     {
         return -99999;
     }
     queueNode *ptmp = NULL;
-    *data = queue->head->data;
+    TypeEle data = queue->head->data;
     ptmp = queue->head;
     queue->head = ptmp->next;
     if (queue->head == NULL)
@@ -71,5 +72,23 @@ TypeEle LinkQueue::dequeue(TypeEle *data)
         queue->tail = NULL;
     }
     delete ptmp;
-    return 0;
+    return data;
+}
+int LinkQueue::queueLength()
+{
+    return queue->num;
+}
+int main()
+{
+    LinkQueue queue;
+    queue.enqueue(1);
+    queue.enqueue(2);
+    queue.enqueue(3);
+    cout << "queue length is " << queue.queueLength() << endl;
+    TypeEle rlt = queue.dequeue();
+    cout << "first dequeue " << rlt << endl;
+    TypeEle rlt2 = queue.dequeue();
+    cout << "second dequeue " << rlt2 << endl;
+    queue.enqueue(4);
+    cout << "last queue length is " << queue.queueLength() << endl;
 }
