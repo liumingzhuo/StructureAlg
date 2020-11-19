@@ -1,6 +1,8 @@
 # StructureAlg
 
 1. 链表
+   * 234 [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+   * 206 [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 2. 栈
 3. 队列
 4. 递归
