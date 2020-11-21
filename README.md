@@ -22,6 +22,7 @@
 18. 贪心算法
 19. 分治算法
 20. 回溯算法
+    * [46 全排列](https://leetcode-cn.com/problems/permutations/)
 21. 动态规划
     * [322 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
     * [509 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
