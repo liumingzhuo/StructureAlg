@@ -17,6 +17,7 @@
 13. 堆及堆排序
 14. 图
 15. 深度和广度优先搜索
+    * [111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 16. 字符串匹配
 17. Trie树
 18. 贪心算法
