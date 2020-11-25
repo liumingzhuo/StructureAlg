@@ -8,6 +8,7 @@
 4. 递归
 5. 排序
 6. 二分查找
+   * [704 二分查找](https://leetcode-cn.com/problems/binary-search/)
 7. 跳表
 8. 散列表
 9. 哈希算法
