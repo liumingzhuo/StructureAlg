@@ -18,6 +18,7 @@
 14. 图
 15. 深度和广度优先搜索
     * [111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+    * [752 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
 16. 字符串匹配
 17. Trie树
 18. 贪心算法
