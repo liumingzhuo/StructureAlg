@@ -23,6 +23,7 @@
     * [752 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
 16. 字符串匹配
     * [76 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+    * [567 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
 17. Trie树
 18. 贪心算法
 19. 分治算法
