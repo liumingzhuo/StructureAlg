@@ -261,10 +261,10 @@ int main()
     LinkList l;
     // InitList(l);
     // l = InitAfterList(l);
-    l = InitHeadersList(l);
+    l = InitHeadersList(l); 
 
-    // ReverseList(l);
-    removeNthFromEnd2(l, 2);
+    ReverseList(l);
+    // removeNthFromEnd2(l, 2);
     PrintfList(l);
     // InsertList(l, 2, 2);
 

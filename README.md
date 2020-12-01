@@ -3,11 +3,14 @@
 1. 数组
 
    * [15 三数之和](https://leetcode-cn.com/problems/3sum/)
+   * [18 四数之和](https://leetcode-cn.com/problems/4sum/)
 
 2. 链表
 
    * [234 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
    * [206反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+   * [92 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+   * [25 K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
 3. 栈
 
@@ -28,6 +31,10 @@
 10. 哈希算法
 
 11. 二叉树
+
+    * [114 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+    * [116 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+    * [226 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 12. 红黑树
 
