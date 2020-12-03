@@ -35,6 +35,13 @@
     * [114 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
     * [116 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
     * [226 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+    * [654 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)
+    * [105 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+    * [106 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+    * [652 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
+    * [230 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+    * [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
+    * [450 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
 
 12. 红黑树
 
