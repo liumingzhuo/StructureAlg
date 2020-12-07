@@ -4,6 +4,7 @@
 
    * [15 三数之和](https://leetcode-cn.com/problems/3sum/)
    * [18 四数之和](https://leetcode-cn.com/problems/4sum/)
+   * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 
 2. 链表
 
@@ -45,6 +46,8 @@
     * [297 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
     * [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
     * [236 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+    * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
+    * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 
 12. 红黑树
 
