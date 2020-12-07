@@ -47,8 +47,7 @@
     * [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
     * [236 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
     * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
-    * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
-
+* [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 12. 红黑树
 
 13. 递归树
