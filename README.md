@@ -12,6 +12,7 @@
    * [206反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
    * [92 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
    * [25 K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+   * [146 LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 3. 栈
 
