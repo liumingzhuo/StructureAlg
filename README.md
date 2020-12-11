@@ -51,33 +51,25 @@
     * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 12. 红黑树
-
 13. 递归树
-
 14. 堆及堆排序
-
+    * [295 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
 15. 图
-
 16. 深度和广度优先搜索
     * [111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
     * [752 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
-
+    * [130 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
 17. 字符串匹配
     * [76 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
     * [567 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
     * [438 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
     * [3 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-
 18. Trie树
-
 19. 贪心算法
-
 20. 分治算法
-
 21. 回溯算法
     * [46 全排列](https://leetcode-cn.com/problems/permutations/)
     * [ 51 N 皇后](https://leetcode-cn.com/problems/n-queens/)
-
 22. 动态规划
     * [322 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
     * [509 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
@@ -87,11 +79,11 @@
     * [188 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
     * [309 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
     * [714 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
-
 23. 区间问题
 
     * [1288 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/)
-
     * [986 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/)
     * [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+24. 其他类型
+    * [990 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)
 
