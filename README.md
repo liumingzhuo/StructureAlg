@@ -14,6 +14,7 @@
    * [25 K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
    * [146 LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
    * [460 LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)
+   * [355 设计推特](https://leetcode-cn.com/problems/design-twitter/)
 
 3. 栈
 
@@ -26,7 +27,8 @@
 7. 二分查找
    * [704 二分查找](https://leetcode-cn.com/problems/binary-search/)
    * [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-
+* [875 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)
+   
 8. 跳表
 
 9. 散列表
