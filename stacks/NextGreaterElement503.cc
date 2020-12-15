@@ -15,11 +15,14 @@ using namespace std;
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
-        vector<int> res;
-        stack<int> stacks;
-        for(auto num:nums){
-            while (!stacks.empty() && stacks.top() <= num) stacks.pop();
-            res.push_back(stacks.empty()?-1:stacks.top());            
+        int n = nums.size();
+        vector<int> res(n);
+        stack<int> s;
+        for(int i = 2*n -1; i >=0; i--){
+            while(!s.empty() && s.top() <=  nums[i%n]) s.pop();
+            res[i%n] = s.empty() ? -1: s.top();
+            s.push(nums[i%n]);
         }
+        return res;
     }
 };

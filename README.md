@@ -5,7 +5,6 @@
    * [15 三数之和](https://leetcode-cn.com/problems/3sum/)
    * [18 四数之和](https://leetcode-cn.com/problems/4sum/)
    * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
-
 2. 链表
 
    * [234 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
@@ -15,26 +14,20 @@
    * [146 LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
    * [460 LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)
    * [355 设计推特](https://leetcode-cn.com/problems/design-twitter/)
-
 3. 栈
-
+   * [496 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)
+   * [503 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+   * [739 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
 4. 队列
-
 5. 递归
-
 6. 排序
-
 7. 二分查找
    * [704 二分查找](https://leetcode-cn.com/problems/binary-search/)
    * [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-* [875 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)
-   
+   * [875 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)
 8. 跳表
-
 9. 散列表
-
 10. 哈希算法
-
 11. 二叉树
 
     * [114 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
@@ -51,7 +44,7 @@
     * [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
     * [236 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
     * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
-* [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
+    * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 12. 红黑树
 13. 递归树
 14. 堆及堆排序
