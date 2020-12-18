@@ -2,7 +2,7 @@
 
 [toc]
 
-#### 数组1
+#### 数组
 
 * [15 三数之和](https://leetcode-cn.com/problems/3sum/)
 * [18 四数之和](https://leetcode-cn.com/problems/4sum/)
