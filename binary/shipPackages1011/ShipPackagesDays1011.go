@@ -37,6 +37,8 @@ func getSum(weights []int) int {
 	}
 	return sum
 }
+
+//D天内能完成的情况
 func canFinish(weights []int, D int, cap int) bool {
 	i := 0
 	for day := 0; day < D; day++ {
