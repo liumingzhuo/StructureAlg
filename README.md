@@ -17,7 +17,8 @@
 * [146 LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 * [460 LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)
 * [355 设计推特](https://leetcode-cn.com/problems/design-twitter/)
-* [#141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+* [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+* [142 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
 #### 栈
 
