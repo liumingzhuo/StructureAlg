@@ -19,6 +19,8 @@
 * [355 设计推特](https://leetcode-cn.com/problems/design-twitter/)
 * [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 * [142 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+* [876 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+* [19 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
 #### 栈
 
