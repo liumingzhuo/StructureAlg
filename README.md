@@ -7,6 +7,7 @@
 * [15 三数之和](https://leetcode-cn.com/problems/3sum/)
 * [18 四数之和](https://leetcode-cn.com/problems/4sum/)
 * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
+* [380 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 
 #### 链表
 
