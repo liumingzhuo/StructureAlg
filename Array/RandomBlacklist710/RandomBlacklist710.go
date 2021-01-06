@@ -14,24 +14,31 @@ type Solution struct {
 }
 
 func Constructor(N int, blacklist []int) Solution {
-	szn := N - len(blacklist)
-	mapp := make(map[int]int)
+	mapp := make(map[int]int, 0)
+	bm := make(map[int]struct{})
+	notInBlack := make([]int, 0)
+	w := N - len(blacklist)
+	flag := 0
+	//将黑名单中大于分界点的值 加入到bm中
 	for _, b := range blacklist {
-		mapp[b] = 888
+		if b >= w {
+			bm[b] = struct{}{}
+		}
 	}
-	last := N - 1
+	//将分界点右侧不在黑名单中到值  加入到notInBlack
+	for i := w; i < N; i++ {
+		if _, ok := bm[i]; !ok {
+			notInBlack = append(notInBlack, i)
+		}
+	}
+	//将分界点左侧黑名单中的值 映射到notInBlack中的值
 	for _, b := range blacklist {
-		if b > szn {
-			continue
+		if b < w {
+			mapp[b] = notInBlack[flag]
+			flag++
 		}
-		for _, ok := mapp[last]; ok; {
-			last--
-		}
-		mapp[b] = last
-		last--
-
 	}
-	return Solution{sz: szn, numsMap: mapp}
+	return Solution{sz: w, numsMap: mapp}
 }
 
 func (this *Solution) Pick() int {
