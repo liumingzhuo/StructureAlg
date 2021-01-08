@@ -12,6 +12,7 @@
 * [316 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 * [26 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 * [27 移除元素](https://leetcode-cn.com/problems/remove-element/)
+* [283 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
 #### 链表
 
