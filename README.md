@@ -11,6 +11,7 @@
 * [710 黑名单中的随机数](https://leetcode-cn.com/problems/random-pick-with-blacklist/)
 * [316 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 * [26 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+* [27 移除元素](https://leetcode-cn.com/problems/remove-element/)
 
 #### 链表
 
