@@ -10,6 +10,7 @@
 * [380 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 * [710 黑名单中的随机数](https://leetcode-cn.com/problems/random-pick-with-blacklist/)
 * [316 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
+* [26 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
 #### 链表
 
