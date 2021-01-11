@@ -1,7 +1,12 @@
+/*
+322. 零钱兑换
+*/
 package CoinChange322
 
+//定义int 最大值
 const INT_MAX = int(^uint(0) >> 1)
 
+//const INT_MIN = ^INT_MAX
 func coinChange(coins []int, amount int) int {
 	memo := make(map[int]int)
 	return dp(coins, memo, amount)
@@ -29,8 +34,8 @@ func dp(coins []int, memo map[int]int, n int) int {
 	}
 	if res != INT_MAX {
 		memo[n] = res
-		return memo[n]
 	} else {
-		return -1
+		memo[n] = -1
 	}
+	return memo[n]
 }
