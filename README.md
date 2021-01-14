@@ -124,6 +124,7 @@
 * [714 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 * [72 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 * [53 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+* [1143 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
 #### 区间问题
 
