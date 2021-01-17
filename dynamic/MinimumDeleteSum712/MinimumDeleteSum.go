@@ -14,15 +14,40 @@ func minimumDeleteSum(s1 string, s2 string) int {
 			memo[i][j] = -1
 		}
 	}
-	return dp(s1, s2, m, n)
+	return dp(s1, s2, 0, 0)
 }
 func dp(s1, s2 string, i, j int) int {
 	var res int = 0
 	//base
-	if i == len(s1) {
-		for j := range s2 {
-			res += s2[j]
+	if i == len(s1) { // 如果 s1走完 那么s2剩余部分都需要删除
+		for ; j < len(s2); j++ {
+			res += int(s2[j])
 		}
+		return res
 	}
-
+	//如果s2走完
+	if j == len(s2) {
+		for ; i < len(s1); i++ {
+			res += int(s1[i])
+		}
+		return res
+	}
+	if memo[i][j] != -1 {
+		return memo[i][j]
+	}
+	if s1[i] == s2[j] {
+		memo[i][j] = dp(s1, s2, i+1, j+1)
+	} else {
+		memo[i][j] = minValue(
+			dp(s1, s2, i+1, j)+int(s1[i]),
+			dp(s1, s2, i, j+1)+int(s2[j]),
+		)
+	}
+	return memo[i][j]
+}
+func minValue(num1, num2 int) int {
+	if num1 < num2 {
+		return num1
+	}
+	return num2
 }
