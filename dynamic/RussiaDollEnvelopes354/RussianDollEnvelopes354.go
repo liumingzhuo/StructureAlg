@@ -18,24 +18,24 @@ func maxEnvelopes(envelopes [][]int) int {
 		return envelopes[i][0] < envelopes[j][0]
 	})
 	top := make([]int, len(envelopes))
-	start, end, rlt := 0, 0, 0
+	piles := 0
 	for i := 0; i < len(envelopes); i++ {
-		start = 0
-		end = rlt
-		for start < end {
-			mid := start + (end-start)/2
+		left, right := 0, piles
+		for left < right {
+			mid := left + (right-left)/2
 			if top[mid] >= envelopes[i][1] {
-				end = mid
+				right = mid
 			} else {
-				start = mid + 1
+				left = mid + 1
 			}
 		}
-		if start == rlt {
-			rlt++
+		if left == piles {
+			piles++
 		}
-		top[start] = envelopes[i][1]
+		//放在堆顶
+		top[left] = envelopes[i][1]
 	}
-	return rlt
+	return piles
 }
 func main() {
 	lis := maxEnvelopes([][]int{{5, 4}, {6, 4}, {6, 7}, {2, 3}})
