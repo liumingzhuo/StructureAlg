@@ -1,4 +1,4 @@
-package jumpGame
+package jumpgame
 
 /*
 55. 跳跃游戏
