@@ -132,6 +132,7 @@
 * [518 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)
 * [435 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 * [452 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+* [55 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
 
 #### 区间问题
 
