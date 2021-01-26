@@ -3,8 +3,6 @@
 */
 package main
 
-import "fmt"
-
 var memo [][]int
 
 func longestCommonSubsequence(text1 string, text2 string) int {
@@ -22,7 +20,6 @@ func dp(text1 string, m int, text2 string, n int) int {
 	if len(text1) == m || len(text2) == n {
 		return 0
 	}
-	fmt.Println(memo)
 	if memo[m][n] != -1 {
 		return memo[m][n]
 	}
