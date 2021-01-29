@@ -1,8 +1,8 @@
+package jumpgame45
+
 /*
 45. 跳跃游戏 II
 */
-package jumpgame45
-
 func jump(nums []int) int {
 	n := len(nums)
 	var end, farthest, jump int // end 表示跳跃到的位置  farthest表示跳跃最远的位置
