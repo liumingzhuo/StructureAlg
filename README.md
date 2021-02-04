@@ -96,6 +96,7 @@
 * [78 子集](https://leetcode-cn.com/problems/subsets/)
 * [22 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 * [37 解数独](https://leetcode-cn.com/problems/sudoku-solver/)
+* [111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
 #### 字符串匹配
 
