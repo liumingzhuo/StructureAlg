@@ -102,6 +102,8 @@
 
 * [37 解数独](https://leetcode-cn.com/problems/sudoku-solver/)
 
+* [773 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)
+
     
 
 #### 字符串匹配
@@ -154,4 +156,7 @@
 #### 其他类型
 
 * [990 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)
+* [191 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+* [231 2的幂](https://leetcode-cn.com/problems/power-of-two/)
+* [136 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 
