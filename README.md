@@ -159,4 +159,6 @@
 * [191 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 * [231 2的幂](https://leetcode-cn.com/problems/power-of-two/)
 * [136 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+* [172 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+* [793 阶乘函数后K个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/)
 
