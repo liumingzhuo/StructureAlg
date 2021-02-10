@@ -161,4 +161,5 @@
 * [136 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 * [172 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
 * [793 阶乘函数后K个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/)
+* [204 计数质数](https://leetcode-cn.com/problems/count-primes/)
 
