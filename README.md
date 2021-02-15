@@ -163,4 +163,6 @@
 * [793 阶乘函数后K个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/)
 * [204 计数质数](https://leetcode-cn.com/problems/count-primes/)
 * [372 超级次方](https://leetcode-cn.com/problems/super-pow/)
+* [448 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
+* [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
