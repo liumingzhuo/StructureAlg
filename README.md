@@ -165,4 +165,6 @@
 * [372 超级次方](https://leetcode-cn.com/problems/super-pow/)
 * [448 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
 * [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
+* [382 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
+* [398 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)
 
