@@ -13,6 +13,9 @@
 * [26 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 * [27 移除元素](https://leetcode-cn.com/problems/remove-element/)
 * [283 移动零](https://leetcode-cn.com/problems/move-zeroes/)
+* [560 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+* [1109 航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)
+* [215 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 
 #### 链表
 
@@ -167,4 +170,5 @@
 * [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 * [382 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 * [398 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)
+* [292 Nim 游戏](https://leetcode-cn.com/problems/nim-game/)
 
