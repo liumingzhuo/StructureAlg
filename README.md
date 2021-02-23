@@ -122,6 +122,8 @@
 
 #### 分治算法
 
+* [241 为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)
+
 #### 回溯算法
 
 * [46 全排列](https://leetcode-cn.com/problems/permutations/)
