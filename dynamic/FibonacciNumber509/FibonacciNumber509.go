@@ -32,27 +32,27 @@ func fib1(n int) int {
 	if n == 1 || n == 2 {
 		return 1
 	}
-	dp[1] = dp [2] = 1 
-	for i := 3; i <= n; i++{
-		dp[i] = dp[i-1]+dp[i-2]
+	dp[1], dp[2] = 1, 1
+	for i := 3; i <= n; i++ {
+		dp[i] = dp[i-1] + dp[i-2]
 	}
 	return dp[n]
 }
 
 //优化自底向上的dp
-func fib2(n int) int{
+func fib2(n int) int {
 	if n < 1 {
 		return 0
 	}
-	if n == 1|| n ==2{
+	if n == 1 || n == 2 {
 		return 1
 	}
 	curr := 1
 	prev := 1
-	for i := 3; i <= n; i++{
+	for i := 3; i <= n; i++ {
 		sum := curr + prev
-        prev = curr
-        curr = sum
+		prev = curr
+		curr = sum
 	}
 	return curr
 }
