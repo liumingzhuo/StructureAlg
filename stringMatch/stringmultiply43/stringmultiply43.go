@@ -27,8 +27,6 @@ func multiply(num1 string, num2 string) string {
 	}
 	if len(bs) > 0 {
 		return string(bs)
-	} else {
-		return "0"
 	}
-
+	return "0"
 }
