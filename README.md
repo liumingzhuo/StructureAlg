@@ -177,4 +177,6 @@
 * [382 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
 * [398 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)
 * [292 Nim 游戏](https://leetcode-cn.com/problems/nim-game/)
+* [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
+* [42 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
 
