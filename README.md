@@ -40,6 +40,7 @@
 * [503 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 * [739 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
 * [232 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+* [20 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
 #### 队列
 
