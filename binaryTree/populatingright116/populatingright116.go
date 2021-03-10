@@ -26,5 +26,4 @@ func connectTwo(node1 *Node, node2 *Node) {
 	connectTwo(node1.Right, node2.Left)
 	connectTwo(node1.Left, node1.Right)
 	connectTwo(node2.Left, node2.Right)
-
 }
