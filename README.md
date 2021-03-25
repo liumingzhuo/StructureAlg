@@ -83,6 +83,7 @@
 * [236 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
+* [652 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
 
 #### 红黑树
 
