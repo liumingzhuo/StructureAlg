@@ -84,6 +84,9 @@
 * [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 * [621 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 * [652 寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
+* [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+* [700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+* [98 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 #### 红黑树
 
