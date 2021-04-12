@@ -87,6 +87,7 @@
 * [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
 * [700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 * [98 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+* [25 K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
 #### 红黑树
 
