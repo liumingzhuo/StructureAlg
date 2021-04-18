@@ -88,6 +88,7 @@
 * [700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 * [98 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 * [25 K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+* [104 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
 #### 红黑树
 
