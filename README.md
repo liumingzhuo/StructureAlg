@@ -127,6 +127,7 @@
 * [3 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 * [5 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 * [43 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)
+* [125 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
 
 #### Trie树
 
