@@ -34,6 +34,7 @@
 * [167 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 * [344 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 * [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+* [138 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 
 #### 栈
 
