@@ -6,7 +6,7 @@ import (
 
 func TestMultipfy(t *testing.T) {
 	got := multiply("2", "3")
-	want := "6"
+	want := "61"
 	if got != want {
 		t.Fatalf("got: %s  but want: %s", got, want)
 	}

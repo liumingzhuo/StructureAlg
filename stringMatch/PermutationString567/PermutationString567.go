@@ -7,7 +7,7 @@
 输出: True
 解释: s2 包含 s1 的排列之一 ("ba").
 */
-package PermutationString567
+package permutationstring567
 
 func checkInclusion(s1 string, s2 string) bool {
 	left := 0

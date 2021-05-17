@@ -6,7 +6,7 @@
 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 */
 
-package LongestCharacters3
+package longestcharacters3
 
 func lengthOfLongestSubstring(s string) int {
 	windows := make(map[byte]int, len(s))

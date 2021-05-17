@@ -9,7 +9,7 @@
 字母异位词指字母相同，但排列不同的字符串。
 不考虑答案输出的顺序。
 */
-package main
+package findallanagramsastring438
 
 import "fmt"
 
