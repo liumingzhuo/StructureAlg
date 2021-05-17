@@ -5,7 +5,7 @@
 
 注意：如果 s 中存在这样的子串，我们保证它是唯一的答案。
 */
-package MinWindowSub76
+package minwindowsub76
 
 func minWindow(s string, t string) string {
 	needs := make(map[byte]int, len(t))
