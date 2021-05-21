@@ -19,6 +19,7 @@
 * [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 * [4 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 * [11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
+* [31 下一个排列](https://leetcode-cn.com/problems/next-permutation/)
 
 #### 链表
 
