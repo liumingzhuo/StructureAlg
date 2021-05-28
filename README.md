@@ -20,6 +20,13 @@
 * [4 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 * [11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
 * [31 下一个排列](https://leetcode-cn.com/problems/next-permutation/)
+* [35 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+* [69 x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+* [367 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+* [977 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
+* [209 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+* [59 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+* [54 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
 
 #### 链表
 
@@ -38,6 +45,10 @@
 * [344 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 * [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 * [138 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
+* [203 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+* [707 设计链表](https://leetcode-cn.com/problems/design-linked-list/)
+* [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+* [面试题 02.07 链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/)
 
 #### 栈
 
@@ -68,6 +79,9 @@
 #### 跳表
 
 #### 散列表
+
+* [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+* [383 赎金信](https://leetcode-cn.com/problems/ransom-note/)
 
 #### 哈希算法
 
