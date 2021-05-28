@@ -13,6 +13,10 @@ func threeSum(nums []int) [][]int {
 	n := len(nums)
 	res := [][]int{}
 	for i := 0; i < n; i++ {
+		//排序后如果第一个元素大于0  则一定不能构成三元组
+		if nums[i] > 0 {
+			return res
+		}
 		ts := twoSum(&nums, i+1, -nums[i])
 		for _, t := range ts {
 			t = append(t, nums[i])
