@@ -26,3 +26,28 @@ func copyRandomList(head *Node) *Node {
 	}
 	return m[head]
 }
+
+/**
+方法二：回溯
+var m map[*Node]*Node
+
+func back(node *Node) *Node {
+	if node == nil {
+		return nil
+	}
+	if n, ok := m[node]; ok {
+		return n
+	}
+	newNode := &Node{Val: node.Val}
+	m[node] = newNode
+	newNode.Next = back(node.Next)
+	newNode.Random = back(node.Random)
+	return newNode
+}
+func copyRandomList(head *Node) *Node {
+	m = map[*Node]*Node{}
+	return back(head)
+}
+
+
+*/
